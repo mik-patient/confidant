@@ -58,7 +58,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@2.8
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: lyft/confidant
           username: ${{ secrets.DOCKER_USERNAME }}
